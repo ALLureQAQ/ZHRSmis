@@ -1,0 +1,42 @@
+/* pages/index/card1/index.wxss */
+.button-container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button-grid {
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    gap: 20rpx;
+}
+
+.button {
+    flex: 1 1 45%;
+    height: 200rpx;
+    border-radius: 16rpx;
+    color: white;
+    font-size: 32rpx;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4rpx 12rpx rgba(0, 0, 0, 0.2);
+}
+
+.button-1 {
+    background-color: #1989fa; /* 蓝色 */
+}
+
+.button-2 {
+    background-color: #07c160; /* 绿色 */
+}
+
+.button-3 {
+    background-color: #ff976a; /* 橙色 */
+}
+
+.button-4 {
+    background-color: #9c27b0; /* 紫色 */
+}

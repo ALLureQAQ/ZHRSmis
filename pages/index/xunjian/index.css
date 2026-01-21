@@ -1,0 +1,24 @@
+/* pages/deviceform/deviceform.wxss */
+.form-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20rpx;
+    padding: 0 20rpx;
+}
+.label {
+    width: 180rpx;
+    font-size: 28rpx;
+}
+.input {
+    flex: 1;
+    height: 80rpx;
+    border: 1rpx solid #dddddd;
+    border-radius: 4rpx;
+    padding: 0 10rpx;
+}
+.submit-btn {
+    width: 80%;
+    background-color: #007aff;
+    color: white;
+    margin-top: 40rpx;
+}

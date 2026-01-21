@@ -1,0 +1,148 @@
+{
+	"pages": [{
+			"path": "pages/login/login",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/index/sis/index",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/index/zhidu/index",
+			"style": {
+				"usingComponents": {},
+				"navigationBarTitleText": "制度文档",
+				"enablePullDownRefresh": true
+			}
+		},
+
+		{
+			"path": "pages/index/shigu/index",
+			"style": {
+				"usingComponents": {},
+				"navigationBarTitleText": "事故案例",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/dqwork/index",
+			"style": {
+				"usingComponents": {},
+				"navigationBarTitleText": "任务台账",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/yinhuan/index",
+			"style": {
+				"usingComponents": {},
+				"navigationBarTitleText": "事故案例",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/zhidu/file",
+			"style": {
+				"usingComponents": {},
+				"navigationBarTitleText": "文件查看",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/risk/index",
+			"style": {
+				"usingComponents": {},
+				"navigationBarTitleText": "事故案例",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/index/xunjian/index",
+			"style": {
+				"navigationBarTitleText": "设备信息表单",
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/index/xunjian/quexian/index",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/index/xunjian/xiaoque/index",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/index/xunjian/jiancha",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+
+		{
+			"path": "pages/message/message",
+			"style": {
+				"usingComponents": {}
+			}
+		},
+		{
+			"path": "pages/message/warn/index",
+			"style": {
+				"usingComponents": {},
+				"navigationBarTitleText": "实时报警",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/message/workorder/index",
+			"style": {
+				"usingComponents": {},
+				"navigationBarTitleText": "缺陷工单",
+				"enablePullDownRefresh": true
+			}
+		}
+	],
+	"renderer": "webview",
+	"tabBar": {
+		"list": [{
+				"pagePath": "pages/index/index",
+				"text": "首页"
+			},
+
+			{
+				"pagePath": "pages/message/message",
+				"text": "消息"
+			}
+		]
+	},
+	"style": "v2",
+	"sitemapLocation": "sitemap.json",
+	"globalStyle": {
+		"backgroundTextStyle": "light",
+		"navigationBarBackgroundColor": "#ffffff",
+		"navigationBarTitleText": "智慧燃烧Mis",
+		"navigationBarTextStyle": "black"
+	},
+	"condition": { //模式配置，仅开发期间生效
+		"current": 0, //当前激活的模式(list 的索引项)
+		"list": [{
+			"name": "", //模式名称
+			"path": "", //启动页面，必选
+			"query": "" //启动参数，在页面的onLoad函数里面得到
+		}]
+	},
+	"subPackages": []
+}
